@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+}
+.birinchi{
+    display: flex;  /* barchasini yonma yon keltirish uchun*/
+    align-items: center;   /*  */
+    width: 100%;/* Divimizni eniga olchami */
+    height: 80px; /* Divimizni boyiga olchami */
+    background-color: #24252A; /* divimizning ranggi */
+    color: white;/* divimizning ichidegi yozuvlani ranggi */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /* divimizning ichidegi yozuvlani korinishi */
+    
+    
+}
+.birinchi h1{
+    margin-left: 100px; /* divimizning ichidegi dastlabki yozuvni chapdan surish */
+}
+.collection{
+    display: flex; /* barchasini yonma yon keltirish uchun*/
+    align-items: center;
+    text-align: center;
+    list-style-type: none; 
+    margin-left: 900px;  /* divimizning ichidegi dastlabki yozuvni chapdan surish */
+    
+}
+.collection_items{
+    width: 40px; /* Divimizni eniga olchami */
+    height: 40px; /* Divimizni boyiga olchami */
+    display: flex;
+    margin-left: 30px; /* divimizning ichidegi dastlabki yozuvni chapdan surish */
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /*  */
+}
+
+li > a{
+    color: #fff;
+}
+
+.f-b{
+    background-color: #4869B8;
+}
+.t-b{
+    background-color: #1FA3F4;
+}
+.i-r{
+    background-color: #E23171;
+}
+.i-b{
+    background-color: #0073B7;
+}
+.y-r{
+    background-color: #FF0100;
+}
+.ikkinchi{
+    display: flex; /* barchasini yonma yon keltirish uchun*/
+    margin-top: 5px; /* divimizning ichidegi yozuvni tepadan surish */
+    list-style-type: none;
+    width: 100%; /* Divimizni eniga olchami */
+    height: 300px;
+    background-color: #24252A;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
+    
+}
+
+.wrapper{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ikkinchi > ul{
+    list-style-type: none;
+}
+.uchinchi{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 200px;
+    height: 35px;
+    border: none;
+    margin: 20px 0px;
+    
+}
+button{
+    width: 200px;
+    height:35px;
+    border: none;
+    border-radius: 7px;
+    background: rgb(73,64,226);
+    background: linear-gradient(90deg, rgba(73,64,226,1) 0%, rgba(24,232,0,1) 100%);
+    color: white;
+    cursor: pointer;
+}
+.wrapper > ul >li{
+    list-style-type: none;
+    padding: 5px 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
